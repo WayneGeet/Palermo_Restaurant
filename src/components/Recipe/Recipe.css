@@ -1,0 +1,41 @@
+form{
+    position:relative;
+    top:4rem;
+    left:4rem;
+}
+
+.search-button{
+    position:relative;
+    left:2rem;
+}
+
+.foods{
+    display:flex;
+    overflow-x:hidden;
+    margin:0 2rem;
+}
+
+
+.item_food{
+    min-height:30rem;
+    width:23rem;
+    padding:20px;
+}
+
+.item_food img{
+    width:100%;
+    height:100%;
+    border-radius:2rem;
+    pointer-events: none;
+}
+
+.inner-carousel{
+    display:flex;
+    background-color:antiquewhite;
+    cursor:grab;
+}
+
+.carousel{
+    cursor:grab;
+    overflow:hidden;
+}
